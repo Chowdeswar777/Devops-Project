@@ -14,6 +14,12 @@
   <packaging>war</packaging>
   <name>Webapp</name>
   <description>Webapp.</description>
+         <distributionManagement>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://18.232.184.158:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
 
   <build>
     <finalName>${project.artifactId}</finalName>
